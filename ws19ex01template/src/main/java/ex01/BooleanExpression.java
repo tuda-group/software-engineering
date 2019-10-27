@@ -1,6 +1,12 @@
 package ex01;
 
-public Interface BooleanExpression{
+import java.util.ArrayList;
+import java.util.EmptyStackException;
+import java.util.List;
+import java.util.Map;
+import java.util.Stack;
+
+public interface BooleanExpression{
     String toPostfixString();
     boolean evaluate(Map<String, Boolean> varAssign);
 
@@ -13,9 +19,9 @@ public Interface BooleanExpression{
     BooleanExpression toDNF();
 
     static BooleanExpression parseExpression(String expr){
-        Stack<BooleanExpression> stack=new Stack();
+        Stack<BooleanExpression> stack=new Stack<>();
         try{
-            for(int i=0;i<expr.length;i++){
+            for(int i=0;i< expr.length(); i++){
                 if(expr.charAt(i)=='&'){
                     BooleanExpression rightOp=stack.pop();
                     BooleanExpression leftOp=stack.pop();
@@ -30,8 +36,11 @@ public Interface BooleanExpression{
                     BooleanExpression op=stack.pop();
                     Not not=new Not(op);
                     stack.push(not);
-                }else if(expr.charAt(i)!=' '){
-                    int indexOfNextSpace=expr.indexOf(' ',i)
+                }else if(expr.charAt(i)!= ' '){
+                    int indexOfNextSpace=expr.indexOf(' ',i);
+                    if (indexOfNextSpace == -1) {
+                    	indexOfNextSpace = expr.length();
+                    }
                     String varName=expr.substring(i,indexOfNextSpace);
                     Var var=new Var(varName);
                     stack.push(var);

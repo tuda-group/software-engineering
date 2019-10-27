@@ -1,5 +1,9 @@
 package ex01;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 public class Or implements BooleanExpression {
     private final BooleanExpression leftOp;
     private final BooleanExpression rightOp;
@@ -14,7 +18,7 @@ public class Or implements BooleanExpression {
     }
 
     public boolean evaluate(Map<String, Boolean> varAssign) {
-        return (this.leftOp.evaluate() || this.rightOp.evaluate());
+        return (this.leftOp.evaluate(varAssign) || this.rightOp.evaluate(varAssign));
     }
 
     public List<BooleanExpression> disjunctiveTerms() {

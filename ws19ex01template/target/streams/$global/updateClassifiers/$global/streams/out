@@ -560,93 +560,43 @@
 [debug] == resolving dependencies ex01#ex01$sources;1.0->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /home/henry/.ivy2/local/org.scala-lang/scala-library/2.12.6/srcs/scala-library-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/org.scalactic/scalactic_2.12/3.0.5/srcs/scalactic_2.12-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/org.scalatest/scalatest_2.12/3.0.5/srcs/scalatest_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/junit/junit/4.12/srcs/junit-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/org.scala-sbt/test-interface/1.0/srcs/test-interface-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/org.hamcrest/hamcrest-core/1.3/srcs/hamcrest-core-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.6/srcs/scala-xml_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/com.novocode/junit-interface/0.11/srcs/junit-interface-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/org.scala-lang/scala-reflect/2.12.6/srcs/scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/org.scala-lang/scala-compiler/2.12.6/srcs/scala-compiler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6-sources.jar
-[debug] 		tried /home/henry/.ivy2/local/jline/jline/2.14.6/srcs/jline-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#test-interface;1.0!test-interface.jar(src) (1365ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar
-[info] 	[SUCCESSFUL ] com.novocode#junit-interface;0.11!junit-interface.jar(src) (1654ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src) (1974ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.14.6!jline.jar(src) (2209ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src) (2360ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src) (2853ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
-[info] 	[SUCCESSFUL ] junit#junit;4.12!junit.jar(src) (2851ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src) (4011ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.6!scala-library.jar(src) (4406ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src) (6261ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src) (6263ms)
-[debug] :: resolution report :: resolve 50ms :: artifacts dl 6275ms
-[debug] 	report for ex01#ex01$sources;1.0 compile produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-compile.xml
-[debug] 	report for ex01#ex01$sources;1.0 runtime produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-runtime.xml
-[debug] 	report for ex01#ex01$sources;1.0 test produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-test.xml
-[debug] 	report for ex01#ex01$sources;1.0 provided produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-provided.xml
-[debug] 	report for ex01#ex01$sources;1.0 optional produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-optional.xml
-[debug] 	report for ex01#ex01$sources;1.0 compile-internal produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-compile-internal.xml
-[debug] 	report for ex01#ex01$sources;1.0 runtime-internal produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-runtime-internal.xml
-[debug] 	report for ex01#ex01$sources;1.0 test-internal produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-test-internal.xml
-[debug] 	report for ex01#ex01$sources;1.0 plugin produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-plugin.xml
-[debug] 	report for ex01#ex01$sources;1.0 pom produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-pom.xml
-[debug] 	report for ex01#ex01$sources;1.0 scala-tool produced in /home/henry/Desktop/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-scala-tool.xml
-[debug] 	resolve done (50ms resolve - 6275ms download)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/henry/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] including url: jar:file:/home/henry/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] no default cache defined: set to /home/henry/.ivy2/cache
+[debug] including url: jar:file:/home/henry/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/henry/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/henry/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/henry/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.6/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (10ms)
+[debug] 	default cache: /home/henry/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] :: resolution report :: resolve 85ms :: artifacts dl 15ms
+[debug] 	report for ex01#ex01$sources;1.0 compile produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-compile.xml
+[debug] 	report for ex01#ex01$sources;1.0 runtime produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-runtime.xml
+[debug] 	report for ex01#ex01$sources;1.0 test produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-test.xml
+[debug] 	report for ex01#ex01$sources;1.0 provided produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-provided.xml
+[debug] 	report for ex01#ex01$sources;1.0 optional produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-optional.xml
+[debug] 	report for ex01#ex01$sources;1.0 compile-internal produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-compile-internal.xml
+[debug] 	report for ex01#ex01$sources;1.0 runtime-internal produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-runtime-internal.xml
+[debug] 	report for ex01#ex01$sources;1.0 test-internal produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-test-internal.xml
+[debug] 	report for ex01#ex01$sources;1.0 plugin produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-plugin.xml
+[debug] 	report for ex01#ex01$sources;1.0 pom produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-pom.xml
+[debug] 	report for ex01#ex01$sources;1.0 scala-tool produced in /home/henry/Desktop/software-engineering/ws19ex01template/target/scala-2.12/resolution-cache/reports/ex01-ex01$sources-scala-tool.xml
+[debug] 	resolve done (85ms resolve - 15ms download)

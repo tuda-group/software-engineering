@@ -4,7 +4,7 @@
 		module="ws19ex01template-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20191026175233"
+		publication="20191027114116"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

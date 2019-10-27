@@ -1,5 +1,7 @@
 package ex01;
 
+import java.util.Map;
+
 public class Var implements BooleanExpression {
     private final String name;
 
